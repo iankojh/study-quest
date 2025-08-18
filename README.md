@@ -21,7 +21,7 @@ class StudyQuestApp:
         self.rewards = [
             {"name": "10 mins break", "xp_cost": 15},
             {"name": "1 episode of anime", "xp_cost": 30},
-            {"name": "1 hour gaming", "xp_cost": 60},
+            {"name": "1 hour of gaming", "xp_cost": 60},
             {"name": "Custom free time", "xp_cost": None}
         ]
 
@@ -295,7 +295,7 @@ class StudyQuestApp:
     def show_rewards(self):
         print("\n🎁 Available Rewards:")
         for i, reward in enumerate(self.rewards, 1):
-            cost_text = "{} XP".format(reward["xp_cost"]) if reward["xp_cost"] is not None else "Varies"
+            cost_text = "{} XP".format(reward["xp_cost"]) if reward["xp_cost"] is not None else "20 per hour"
             print(f"{i}. {reward['name']} (Cost: {cost_text})")
 
     def redeem_reward(self):
