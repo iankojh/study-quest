@@ -14,7 +14,7 @@ class StudyQuestApp:
 
         # --- Users (in-memory for now) ---
         self.users = {
-            "bloomer": {"password": "yo", "xp": 100, "streak": 80085}
+            "bloomer": {"password": "yo", "xp": 67**69, "streak": 80085}
         }
 
         # --- Rewards ---
