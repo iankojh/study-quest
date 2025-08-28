@@ -14,7 +14,7 @@ class StudyQuestApp:
 
         # --- Users (in-memory for now) ---
         self.users = {
-            "bloomer": {"password": "yo", "xp": 67**69, "streak": 80085}
+            "bloomer": {"password": "yo", "xp": 67**6941, "streak": 80085**80}
         }
 
         # --- Rewards ---
@@ -68,6 +68,7 @@ class StudyQuestApp:
     # Login / Register
     # ============================================================
     def log_in(self):
+        sys.set_int_max_str_digits(12676)
         print("=== Welcome to StudyQuest! ===")
         self.failed_login_attempts = 0
         while not self.logged_in:
